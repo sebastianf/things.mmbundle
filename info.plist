@@ -2,15 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>contactEmailRot13</key>
-	<string>gbefgra.tehfg@tznvy.pbz</string>
 	<key>contactName</key>
-	<string>Torsten 'Teggy' Grust</string>
+	<string>Padraic Renaghan</string>
 	<key>description</key>
 	<string>Integration with task manager Things.</string>
 	<key>name</key>
 	<string>Things</string>
 	<key>uuid</key>
-	<string>4927E9D0-5392-11E3-8F96-0800200C9A66</string>
+	<string>EB481FB8-320F-4606-82F0-355DF8A3D451</string>
 </dict>
 </plist>

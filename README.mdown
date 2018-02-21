@@ -1,3 +1,7 @@
+# Fork
+
+This is a fork of the MailMate default bundle for Things. This bundle uses the new Things 3.4+ URL scheme and adds new items to Today view.
+
 # Installation
 
 You can install this bundle in MailMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
