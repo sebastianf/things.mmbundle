@@ -7,9 +7,9 @@ import subprocess
 
 body = sys.stdin.read()
 
-note = ("From: " + os.environ['MM_FROM'] + "\n"
-  + "Subject: " + os.environ['MM_SUBJECT'] + "\n"
-  + "Link: message://" + os.environ['MM_MESSAGE_ID'] + "\n"
+note = (
+    "Link: message://" + os.environ['MM_MESSAGE_ID'] + "\n\n"
+  + os.environ['MM_SUBJECT'] + "\n"
   + "\n" + body[:200])
 
 url = ("things:///add?when=today&title="
