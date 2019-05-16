@@ -12,7 +12,7 @@ note = (
   + os.environ['MM_SUBJECT'] + "\n"
   + "\n" + body[:200])
 
-url = ("things:///add?when=today&title="
+url = ("things:///add?title="
   + urllib.quote(os.environ['MM_SUBJECT'])
   + "&notes=" + urllib.quote(note))
 
