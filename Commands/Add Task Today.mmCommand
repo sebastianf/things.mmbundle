@@ -1,0 +1,8 @@
+{
+	name          = 'Add Task Today';
+	input         = 'canonical';
+	environment   = 'MM_FROM=${from}\nMM_SUBJECT=${subject.prefix:+${subject.prefix} }${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\n';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/add_task_today.py"';
+	keyEquivalent = "^A";
+	uuid          = '9A546A89-5066-4833-8E92-D7F296C73951';
+}

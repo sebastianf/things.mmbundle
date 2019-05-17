@@ -1,0 +1,8 @@
+{
+	name          = 'Add Task with UI';
+	input         = 'canonical';
+	environment   = 'MM_FROM=${from}\nMM_SUBJECT=${subject.prefix:+${subject.prefix} }${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\n';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/add_task_with_ui.py"';
+	keyEquivalent = "^A";
+	uuid          = 'BD39AD67-C6AE-4710-9B1A-CD283A62D8B3';
+}
