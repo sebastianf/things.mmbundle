@@ -10,7 +10,7 @@ body = sys.stdin.read()
 note = (
     "Link: message://" + os.environ['MM_MESSAGE_ID'] + "\n\n"
   + os.environ['MM_SUBJECT'] + "\n"
-  + "\n" + body[:200])
+  + "\n" + body[:9900])
 
 url = ("things:///add?title="
   + urllib.quote(os.environ['MM_SUBJECT'])
